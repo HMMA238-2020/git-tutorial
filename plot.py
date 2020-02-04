@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Data are loaded from a file
 x = np.loadtxt('file_data.csv')
 
 # the histogram of the data
 n, bins, patches = plt.hist(x, 50, density=True, facecolor='r, alpha=0.75)
-
 
 plt.xlabel('Smarts')
 plt.ylabel('Probability')
