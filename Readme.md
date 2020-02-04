@@ -1,9 +1,9 @@
 My Great Python Module
 ======================
 
-This useless module does nothing.
+This useless module makes a beautiful plot!
 
-# Getting Started
+# Getting Started
 
 This python package can be used as follows:
 ```
