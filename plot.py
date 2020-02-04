@@ -1,11 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Fixing random state for reproducibility
-np.random.seed(19680801)
-
-mu, sigma = 100, 15
-x = mu + sigma * np.random.randn(10000)
+x = np.loadtxt('file_data.csv')
 
 # the histogram of the data
 n, bins, patches = plt.hist(x, 50, density=True, facecolor='g', alpha=0.75)
