@@ -4,6 +4,6 @@ import numpy as np
 np.random.seed(19680801)
 
 mu, sigma = 100, 15
-x = mu + sigma * np.random.randn(10000)
+x_gaussian = mu + sigma * np.random.randn(10000)
 
-np.savetxt('file_data.csv', x, delimiter=',')
+np.savetxt('file_data.csv', x_gaussian, delimiter=',')
