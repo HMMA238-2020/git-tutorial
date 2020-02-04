@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 x = np.loadtxt('file_data.csv')
 
 # the histogram of the data
-n, bins, patches = plt.hist(x, 50, density=True, facecolor='g', alpha=0.75)
+n, bins, patches = plt.hist(x, 50, density=True, facecolor='k', alpha=0.25)
 
 
 plt.xlabel('Smarts')
